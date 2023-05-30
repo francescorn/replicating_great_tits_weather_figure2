@@ -6,14 +6,14 @@ I am not affiliated with conducting the study or am or was a member of either un
 I am using python, pandas, and seaborn to graph the charts from Figure 2. https://onlinelibrary.wiley.com/doi/epdf/10.1111/jav.02421
 ## Findings
 
-### a) Within-year Effects
+### a)
 
 ![a](images/a.png)
 
-### b) Between-year Effects
+### b)
 
 ![b](images/b.png)
 
-### c) Within-year Effects
+### c)
 
 ![c](images/c.png)
