@@ -8,7 +8,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import io
 import base64
-import response
+import requests
 
 app = Flask(__name__)
 
