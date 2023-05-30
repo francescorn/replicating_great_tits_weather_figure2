@@ -12,7 +12,7 @@ I am using python, pandas, and seaborn to graph the charts from Figure 2. https:
 
 ### b)
 
-![b](images/b.png)
+![b](images/ba.png)
 
 ### c)
 
