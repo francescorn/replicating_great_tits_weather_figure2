@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Open file in excel and assign variables
-xlsx = pd.ExcelFile(r'/Users/Frances/Python/Personal Projects/Weather effects on nestling survival of great tits vary according to the developmental stage .xlsx')
+xlsx = pd.ExcelFile(r'/Users/weather_effects_on_great_tits.xlsx')
 df1 = pd.read_excel(xlsx, 'Sheet1')
 df2 = pd.read_excel(xlsx, 'Sheet2')
 df3 = pd.read_excel(xlsx, 'Sheet3')
