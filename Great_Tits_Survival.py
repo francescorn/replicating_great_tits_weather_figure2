@@ -8,14 +8,18 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import io
 import base64
+import response
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
     # Open file in excel and assign variables
-    xlsx = pd.ExcelFile(https://github.com/francescorn/replicating_great_tits_weather_figure2/blob/main/weather_effects_on_great_tits.xlsx)
-    df1 = pd.read_excel(xlsx, 'Sheet1')
+    url = "https://github.com/francescorn/replicating_great_tits_weather_figure2/raw/main/weather_effects_on_great_tits.xlsx"
+    response = requests.get(url)
+    with open("weather_effects_on_great_tits.xlsx", "wb") as f:
+    f.write(response.content)
+    xlsx = pd.ExcelFile("weather_effects_on_great_tits.xlsx")    df1 = pd.read_excel(xlsx, 'Sheet1')
     df2 = pd.read_excel(xlsx, 'Sheet2')
     df3 = pd.read_excel(xlsx, 'Sheet3')
     df1.dropna(subset=['FirstEggDay'], inplace = True)
