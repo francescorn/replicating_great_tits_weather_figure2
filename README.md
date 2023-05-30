@@ -17,3 +17,7 @@ I am using python, pandas, and seaborn to graph the charts from Figure 2. https:
 ### c)
 
 ![c](images/c.png)
+
+### d)
+
+![d](images/d.png)
