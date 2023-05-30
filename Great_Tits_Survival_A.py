@@ -59,3 +59,17 @@ def home():
     axc.set(xlabel='Residual min. T (C) at ages 6-23 d',
             ylabel='Fledgeling Success')
     c_file_path = 'static/c.png'
+    lmb.savefig(c_file_path)
+    plt.close()
+  
+    plt.clf()
+
+    # Render the template with the plots
+    return render_template('home.html', plot_url_a=plot_url_a, plot_url_b=plot_url_b, plot_url_c=plot_url_c)
+
+@app.route('/index')
+def index():
+    return home()
+
+if __name__ == '__main__':
+    app.run(debug=True)
