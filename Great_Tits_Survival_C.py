@@ -3,6 +3,7 @@ import pandas as pd
 from pandas.tseries.offsets import DateOffset
 import seaborn as sns
 import requests
+import matplotlib.pyplot as plt
 
 # Open file in excel and assign variables
 url = "https://github.com/francescorn/replicating_great_tits_weather_figure2/raw/main/weather_effects_on_great_tits.xlsx"
@@ -30,6 +31,9 @@ df['NumberFledged'] = df['NumberFledged'].astype(float)
 df['MIND_TA200'] = df['MIND_TA200'].astype(float)
 
 # Graph chart
-ax = sns.lmplot(data = df, x = 'MIND_TA200', y = 'NumberFledged', order=2, line_kws={'color': 'green'})
+ax = sns.lmplot(data=df, x='MIND_TA200', y='NumberFledged', order=2, line_kws={'color': 'green'})
 ax.set(xlabel='Residual min. T (C) at ages 6-23 d',
-       ylabel='Fledgeling Success')
+       ylabel='Fledgling Success')
+
+# Show the plot
+plt.show()
