@@ -2,6 +2,7 @@
 import pandas as pd
 from pandas.tseries.offsets import DateOffset
 import seaborn as sns
+import response
 
 # Open file in excel and assign variables
 url = "https://github.com/francescorn/replicating_great_tits_weather_figure2/raw/main/weather_effects_on_great_tits.xlsx"
