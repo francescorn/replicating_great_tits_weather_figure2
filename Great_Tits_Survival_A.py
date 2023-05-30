@@ -31,7 +31,7 @@ def home():
     df3['Date'] = pd.to_datetime(df3['Tag'], format='%d.%m.%Y')
 
     # Merge datasets and convert data to float
-    df = pd.merge(df1, df2, df3, on=['Date'])
+    df = pd.merge(pd.merge(df1, df2, on='Date'), df3, on='Date')
     df['Day14BodyMass'] = df['Day14BodyMass'].astype(float)
     df['MAXD_TA200'] = df['MAXD_TA200'].astype(float)
     df['NumberFledged'] = df['NumberFledged'].astype(float)
