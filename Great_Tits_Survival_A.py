@@ -25,6 +25,9 @@ def home():
     df1.dropna(subset=['FirstEggDay'], inplace=True)
 
     # Convert all datasets to dataframes
+    df1['Date'] = df1['BroodYear'].apply(lambda x: pd.to_datetime(str(x), format='%Y'))
+    df1['Date'] += DateOffset(months = 3)
+    df1['Date'] += pd.to_timedelta(df1['FirstEggDay'], unit='d')
     df2['Date'] = df2['BroodYear'].apply(lambda x: pd.to_datetime(str(x), format='%Y'))
     df2['Date'] += DateOffset(months=3)
     df2['Date'] += pd.to_timedelta(df2['HatchDay'], unit='d')
