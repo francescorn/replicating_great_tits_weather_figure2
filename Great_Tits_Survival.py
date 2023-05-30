@@ -14,7 +14,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     # Open file in excel and assign variables
-    xlsx = pd.ExcelFile(r'/weather_effects_on_great_tits.xlsx')
+    xlsx = pd.ExcelFile(https://github.com/francescorn/replicating_great_tits_weather_figure2/blob/main/weather_effects_on_great_tits.xlsx)
     df1 = pd.read_excel(xlsx, 'Sheet1')
     df2 = pd.read_excel(xlsx, 'Sheet2')
     df3 = pd.read_excel(xlsx, 'Sheet3')
