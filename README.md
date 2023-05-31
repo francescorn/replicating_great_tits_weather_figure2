@@ -15,7 +15,7 @@ The study examined how reproductive characteristics of great tits in southern Ge
 
 ### b)
 
-![b](images/ba.png)
+![b](images/baa.png)
 
 ### c)
 
