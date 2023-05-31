@@ -7,24 +7,24 @@ I am using python, pandas, and seaborn to graph the charts from Figure 2. https:
 
 The study examined how reproductive characteristics of great tits in southern Germany are influenced by temperature and precipitation during specific time periods when the nestlings are growing. Three different models were used to analyze the data for each reproductive trait. The graphs illustrate the effects of environmental variables within a single year (left column) and between different years (right column). The years are represented by varying shades of gray in the right column. The gray bands represent the 95% credible intervals. The significance of linear and squared weather parameters is indicated by whether they differ from zero or are non-significant.In graphs a and b, individual nestlings are depicted as data points, while in graphs c and d, individual nests are represented as slightly displaced points. The curves presented in the figures represent the parameters calculated for nests with seven hatchlings, which is the average population size.
 
+I had to merge each sheet on the date with the following modules in the Pandas package: merge, DateOffset, to_timedelta, and to_datetime. Then I used matplot lib and seaborn to graph the charts. I later changed the source from my home pc to the excel sheet posted in this folder by using the requests package.
+
 ## Findings
 
 ### a)
-In graphs a, individual nestlings are depicted as data points.
+In graph a, individual nestlings are depicted as data points by indiviual nesting mass at 14 days by the residual max temperature.
 
 ![a](images/a.png)
 
 ### b)
-In graph b, individual nestlings are depicted as data points.
+In graph b, individual nestlings are depicted as data points by indiviaul nesting mass at 14 days against the max temperature per year.
 
 ![b](images/baa.png)
 
 ### c)
-
+In graph c, the number of fledglings per nest are depicted as data points by the residual min temperature.
 ![c](images/c.png)
 
 ### d)
-
+In graph d, the number of fledglings per nest are depicted as data points by what I attempted to be the min temperature per year.
 ![d](images/da.png)
-
-In graphs c and d, individual nests are represented as slightly displaced points. 
