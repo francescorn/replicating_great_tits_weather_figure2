@@ -32,10 +32,8 @@ df['NumberFledged'] = df['NumberFledged'].astype(float)
 df['MIND_TA200'] = df['MIND_TA200'].astype(float)
 
 # Graph chart
-ax = sns.lmplot(data = df, x = 'MIND_TA200', y = 'NumberFledged', order=2, line_kws={'color': 'green'})
-ax.set(xlabel='Min. T (C) at ages 6-23 d',
+lm = sns.lmplot(data = df, x = 'MIND_TA200', y = 'NumberFledged', hue='BroodYear', order=2, line_kws={'color': 'green'})
+lm.set(xlabel='Min. T (C) at ages 6-23 d',
        ylabel='Fledgling Success')
-fig = ax
-file_path = 'd.png'
-fig.savefig(file_path)
+plt.legend(title='Year', loc='best')
 plt.show()
