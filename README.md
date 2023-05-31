@@ -11,10 +11,12 @@ The study examined how reproductive characteristics of great tits in southern Ge
 
 ### a)
 In graphs a, individual nestlings are depicted as data points.
+
 ![a](images/a.png)
 
 ### b)
 In graph b, individual nestlings are depicted as data points.
+
 ![b](images/baa.png)
 
 ### c)
