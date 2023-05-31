@@ -9,7 +9,7 @@ The study examined how reproductive characteristics of great tits in southern Ge
 
 I merged each sheet on the date with the following modules in the Pandas package: merge, DateOffset, to_timedelta, and to_datetime. I then used matplot lib and seaborn to graph the charts.
 
-I downloaded the two data sets from driad and requested the weather data by email. I imported the three data sets into a combined excel spreadsheet, weather_effects_on_great_tits.xlsx. I used the requests package to read and add a column called 'Data' from the excel sheet. https://datadryad.org/stash/dataset/doi:10.5061%2Fdryad.51c59zw68
+I downloaded the two data sets from driad and graciously obtained the weather data by email from Dr. Marques-Santos. I imported the three data sets into a combined excel spreadsheet, weather_effects_on_great_tits.xlsx. I used the requests package to read and add a column called 'Data' from the excel sheet. https://datadryad.org/stash/dataset/doi:10.5061%2Fdryad.51c59zw68
 
 ## Findings
 
