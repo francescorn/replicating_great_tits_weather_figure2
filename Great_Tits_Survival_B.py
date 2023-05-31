@@ -32,7 +32,7 @@ df['Day14BodyMass'] = df['Day14BodyMass'].astype(float)
 df['MAXD_TA200'] = df['MAXD_TA200'].astype(float)
 
 # Graph chart
-lm = sns.lmplot(data=df, x='MAXD_TA200', y='Day14BodyMass', hue='BroodYear', order=2, line_kws={'color': 'green'})
-lm.set(xlabel='Residual max. T (C) at ages 4-8 d', ylabel='Nestling mass at age 14 days (g)')
-plt.legend(title='Year', loc='best')
+lm = sns.lmplot(data = df, x = 'MAXD_TA200', y = 'Day14BodyMass', hue = 'BroodYear', order = 2, line_kws = {'color': 'green'})
+lm.set(xlabel = 'Residual max. T (C) at ages 4-8 d', ylabel = 'Nestling mass at age 14 days (g)')
+plt.legend(title = 'Year', loc = 'best')
 plt.show()
