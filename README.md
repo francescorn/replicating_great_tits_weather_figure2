@@ -27,8 +27,3 @@ In graph b, individual nestlings are depicted as data points by indiviaul nestin
 In graph c, the number of fledglings per nest are depicted as data points by the residual min temperature.
 
 ![c](images/c.png)
-
-### d)
-In graph d, the number of fledglings per nest are depicted as data points by what I attempted to be the min temperature per year.
-
-![d](images/da.png)
