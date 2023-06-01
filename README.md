@@ -12,18 +12,19 @@ I merged each sheet on the date with the following modules in the Pandas package
 I downloaded the two data sets from driad and received the weather data by email from Dr. Marques-Santos upon request. I imported the three data sets into a combined excel spreadsheet, weather_effects_on_great_tits.xlsx. I used the requests package to read and add a column called 'Data' from the excel sheet. https://datadryad.org/stash/dataset/doi:10.5061%2Fdryad.51c59zw68
 
 ## Findings
+All graphs are coded using the packages pandas, seaborn, requests, and matplotlib. 
 
 ### a)
-Graph A I coded using the packages pandas, seaborn, and matplotlib. The graph depicts the relationship between the residual maximum temperature at ages 4-8 days and the nestling mass at age 14 days.
+The graph depicts the relationship between the residual maximum temperature at ages 4-8 days and the nestling mass at age 14 days. There appears to be a 
 
 ![a](images/a.png)
 
 ### b)
-Graph B I coded using the packages: pandas, seaborn, and matplotlib. This graph illustrates the relationship between the residual maximum temperature at ages 4-8 days and the nestling mass at age 14 days for different years.
+This graph illustrates the relationship between the residual maximum temperature at ages 4-8 days and the nestling mass at age 14 days for different years.
 
 ![b](images/baa.png)
 
 ### c)
-Graph C I coded using the packages: pandas, seaborn, and matplotlib. This graph shows the relationship between the number of fledglings per nest are depicted and the residual minimum temperature.
+This graph shows the relationship between the number of fledglings per nest are depicted and the residual minimum temperature.
 
 ![c](images/c.png)
