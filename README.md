@@ -14,16 +14,16 @@ I downloaded the two data sets from driad and received the weather data by email
 ## Findings
 
 ### a)
-In graph a, individual nestlings are depicted as data points by indiviual nesting mass at 14 days by the residual max temperature.
+Graph A I coded using the packages pandas, seaborn, and matplotlib. The graph depicts the relationship between the residual maximum temperature at ages 4-8 days and the nestling mass at age 14 days.
 
 ![a](images/a.png)
 
 ### b)
-In graph b, individual nestlings are depicted as data points by indiviaul nesting mass at 14 days against the max temperature per year.
+Graph B I coded using the packages: pandas, seaborn, and matplotlib. This graph illustrates the relationship between the residual maximum temperature at ages 4-8 days and the nestling mass at age 14 days for different years.
 
 ![b](images/baa.png)
 
 ### c)
-In graph c, the number of fledglings per nest are depicted as data points by the residual min temperature.
+Graph C I coded using the packages: pandas, seaborn, and matplotlib. This graph shows the relationship between the number of fledglings per nest are depicted and the residual minimum temperature.
 
 ![c](images/c.png)
